@@ -25,7 +25,7 @@ $ curl -s http://getcomposer.org/installer | php`
 Then, use the `create-project` command to generate the statemachine-example project:
 
 ```bash
-$ php composer.phar create-project metabor/statemachine-example path/to/install`
+$ php composer.phar create-project metabor/statemachine-example:dev-master path/to/install`
 ```
 
 Composer will install it and all its dependencies under the
