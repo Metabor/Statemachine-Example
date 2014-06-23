@@ -1,7 +1,7 @@
 Statemachine-Example
 ====================
 
-Implementation of the [metabor/statemachine](https://github.com/Metabor/MetaborStd)
+Implementation of the [metabor/statemachine](https://github.com/Metabor/Statemachine)
 
 What's inside?
 ---------------
