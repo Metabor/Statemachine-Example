@@ -1,0 +1,182 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "939cdf8dca36102e70cc515837f23d69",
+    "packages": [
+        {
+            "name": "clue/graph",
+            "version": "v0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/graph.git",
+                "reference": "f4c2c2c2419e938299a85bf700a8da8c301b904d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/graph/zipball/f4c2c2c2419e938299a85bf700a8da8c301b904d",
+                "reference": "f4c2c2c2419e938299a85bf700a8da8c301b904d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Fhaculty": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A mathematical graph/network library written in PHP",
+            "homepage": "https://github.com/clue/graph",
+            "keywords": [
+                "dijkstra",
+                "edge",
+                "graph",
+                "graphviz",
+                "kruskal",
+                "mathematical",
+                "minimum spanning tree",
+                "moore-bellman-ford",
+                "network",
+                "prim",
+                "shortest path",
+                "vertex"
+            ],
+            "time": "2014-03-12 22:54:24"
+        },
+        {
+            "name": "metabor/metabor-std",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Metabor/MetaborStd.git",
+                "reference": "8f72414ff8cb6239ffd0fe40bd2bbc790df40ab6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Metabor/MetaborStd/zipball/8f72414ff8cb6239ffd0fe40bd2bbc790df40ab6",
+                "reference": "8f72414ff8cb6239ffd0fe40bd2bbc790df40ab6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "metabor/statemachine": "Working implementation of the statemachine interfaces",
+                "metabor/statemachine-doctrine-bridge": "Integrates Doctrine to persit and define status and processes for the statemachine"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "MetaborStd\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Tischlinger",
+                    "email": "oliver.tischlinger@metabor.de"
+                }
+            ],
+            "description": "Collection of maximal independent PHP Interfaces",
+            "keywords": [
+                "api",
+                "interfaces",
+                "standard"
+            ],
+            "time": "2014-06-23 13:29:22"
+        },
+        {
+            "name": "metabor/statemachine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Metabor/Statemachine.git",
+                "reference": "548b0f99199388f7d4546ae418b9909386657e62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/548b0f99199388f7d4546ae418b9909386657e62",
+                "reference": "548b0f99199388f7d4546ae418b9909386657e62",
+                "shasum": ""
+            },
+            "require": {
+                "clue/graph": ">=0.7",
+                "metabor/metabor-std": "~1.1",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1",
+                "symfony/expression-language": "~2.5"
+            },
+            "suggest": {
+                "metabor/statemachine-doctrine-bridge": "Integrates Doctrine to persit and define status and processes for the statemachine",
+                "symfony/expression-language": "To use symfony expressions as conditions"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Metabor\\": "src/",
+                    "Example\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Tischlinger",
+                    "email": "oliver.tischlinger@metabor.de"
+                }
+            ],
+            "description": "Statemachine in PHP 5.3",
+            "keywords": [
+                "process",
+                "state machine",
+                "statemachine",
+                "status"
+            ],
+            "time": "2014-06-23 14:16:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": [
+
+    ]
+}

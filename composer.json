@@ -1,0 +1,24 @@
+{
+    "name": "metabor/statemachine-example",
+    "description": "Example statemachine from my talk and slides",
+    "license": "MIT",
+    "keywords": ["statemachine", "state machine", "example"],
+    "authors": [
+        {
+            "name": "Oliver Tischlinger",
+            "email": "oliver.tischlinger@metabor.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+    	"metabor/statemachine": "~1.1",
+    	"clue/graph": ">=0.7"
+    },
+    "autoload": {
+        "psr-0": {
+			"Example\\": ""
+        }
+    },
+    "prefer-stable":true,
+    "minimum-stability":"dev"
+}
