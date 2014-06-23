@@ -9,7 +9,7 @@ use ArrayAccess;
 /**
  *
  * @author Oliver Tischlinger
- *        
+ *
  */
 class ShippingDateGreater14Days implements ConditionInterface
 {
@@ -23,6 +23,7 @@ class ShippingDateGreater14Days implements ConditionInterface
         if (!$subject instanceof Order) {
             throw new InvalidArgumentException('Subject has to be an Order!');
         }
+
         return ($subject->getNumber() == 'POSTPAYMENT 2');
     }
 

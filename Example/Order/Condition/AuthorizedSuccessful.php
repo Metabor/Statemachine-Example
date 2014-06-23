@@ -7,7 +7,7 @@ use ArrayAccess;
 /**
  *
  * @author Oliver Tischlinger
- *        
+ *
  */
 class AuthorizedSuccessful implements ConditionInterface
 {

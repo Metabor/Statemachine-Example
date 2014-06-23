@@ -9,7 +9,7 @@ use ArrayAccess;
 /**
  *
  * @author Oliver Tischlinger
- *        
+ *
  */
 class Order
 {
@@ -28,8 +28,8 @@ class Order
 
     /**
      *
-     * @param string $number        	
-     * @param ProcessInterface $process        	
+     * @param string           $number
+     * @param ProcessInterface $process
      */
     public function __construct($number, ProcessInterface $process)
     {
@@ -39,8 +39,8 @@ class Order
 
     /**
      *
-     * @param string $name        	
-     * @param ArrayAccess $context        	
+     * @param string      $name
+     * @param ArrayAccess $context
      */
     public function triggerEvent($name, ArrayAccess $context = null)
     {
@@ -50,7 +50,7 @@ class Order
 
     /**
      *
-     * @param string $name        	
+     * @param  string  $name
      * @return boolean
      */
     public function hasEvent($name)

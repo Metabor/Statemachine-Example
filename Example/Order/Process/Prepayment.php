@@ -20,8 +20,8 @@ class Prepayment extends Process implements ProcessConstants, StateConstants, Ev
 
     /**
      *
-     * @param EventInterface $event        	
-     * @param callable $command        	
+     * @param EventInterface $event
+     * @param callable       $command
      */
     protected function addCommand(EventInterface $event, $command)
     {
@@ -46,8 +46,7 @@ class Prepayment extends Process implements ProcessConstants, StateConstants, Ev
         $event->attach($command);
 
         $event = $shippable->getEvent(self::EVENT_SHIPPING);
-        $command = function (EventInterface $event)
-        {
+        $command = function (EventInterface $event) {
             list($order, $context) = $event->getInvokeArgs();
             echo 'Command: ' . $order . ' is shipped!' . PHP_EOL;
         };
