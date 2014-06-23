@@ -3,13 +3,13 @@
 <phpunit bootstrap="tests/bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="Metabor Test Suite">
-            <directory>tests/Metabor/</directory>
+            <directory>tests/Example/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">src/Metabor/</directory>
+            <directory suffix=".php">Example/</directory>
         </whitelist>
         <blacklist>
             <directory>vendor/</directory>
