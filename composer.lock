@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "939cdf8dca36102e70cc515837f23d69",
+    "hash": "308f507ba43aeb4b85d9d1e78c2e15dc",
     "packages": [
         {
             "name": "clue/graph",
@@ -60,16 +60,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/MetaborStd.git",
-                "reference": "8f72414ff8cb6239ffd0fe40bd2bbc790df40ab6"
+                "reference": "a4a8c33bdf2e959077e6be81dcefa635f0bda8f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/MetaborStd/zipball/8f72414ff8cb6239ffd0fe40bd2bbc790df40ab6",
-                "reference": "8f72414ff8cb6239ffd0fe40bd2bbc790df40ab6",
+                "url": "https://api.github.com/repos/Metabor/MetaborStd/zipball/a4a8c33bdf2e959077e6be81dcefa635f0bda8f1",
+                "reference": "a4a8c33bdf2e959077e6be81dcefa635f0bda8f1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
             },
             "suggest": {
                 "metabor/statemachine": "Working implementation of the statemachine interfaces",
@@ -102,7 +105,7 @@
                 "interfaces",
                 "standard"
             ],
-            "time": "2014-06-23 13:29:22"
+            "time": "2014-06-25 20:55:31"
         },
         {
             "name": "metabor/statemachine",
@@ -110,24 +113,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/Statemachine.git",
-                "reference": "548b0f99199388f7d4546ae418b9909386657e62"
+                "reference": "85ab35203830538fe22574cbc2417d2a0adda152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/548b0f99199388f7d4546ae418b9909386657e62",
-                "reference": "548b0f99199388f7d4546ae418b9909386657e62",
+                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/85ab35203830538fe22574cbc2417d2a0adda152",
+                "reference": "85ab35203830538fe22574cbc2417d2a0adda152",
                 "shasum": ""
             },
             "require": {
-                "clue/graph": ">=0.7",
                 "metabor/metabor-std": "~1.1",
                 "php": ">=5.3"
             },
             "require-dev": {
+                "clue/graph": ">=0.7",
                 "phpunit/phpunit": "~4.1",
                 "symfony/expression-language": "~2.5"
             },
             "suggest": {
+                "clue/graph": "For displaying process graph",
                 "metabor/statemachine-doctrine-bridge": "Integrates Doctrine to persit and define status and processes for the statemachine",
                 "symfony/expression-language": "To use symfony expressions as conditions"
             },
@@ -139,8 +143,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Metabor\\": "src/",
-                    "Example\\": ""
+                    "Metabor\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -160,7 +163,7 @@
                 "statemachine",
                 "status"
             ],
-            "time": "2014-06-23 14:16:40"
+            "time": "2014-06-25 21:50:55"
         }
     ],
     "packages-dev": [
