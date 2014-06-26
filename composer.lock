@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/MetaborStd.git",
-                "reference": "a4a8c33bdf2e959077e6be81dcefa635f0bda8f1"
+                "reference": "cd98e57175aabe5b5ebd849f5734a7f68f2c7175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/MetaborStd/zipball/a4a8c33bdf2e959077e6be81dcefa635f0bda8f1",
-                "reference": "a4a8c33bdf2e959077e6be81dcefa635f0bda8f1",
+                "url": "https://api.github.com/repos/Metabor/MetaborStd/zipball/cd98e57175aabe5b5ebd849f5734a7f68f2c7175",
+                "reference": "cd98e57175aabe5b5ebd849f5734a7f68f2c7175",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
                 "interfaces",
                 "standard"
             ],
-            "time": "2014-06-25 20:55:31"
+            "time": "2014-06-26 20:26:12"
         },
         {
             "name": "metabor/statemachine",
@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/Statemachine.git",
-                "reference": "85ab35203830538fe22574cbc2417d2a0adda152"
+                "reference": "48e667cb20e518ba08f7c31dac9f2332270d0d50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/85ab35203830538fe22574cbc2417d2a0adda152",
-                "reference": "85ab35203830538fe22574cbc2417d2a0adda152",
+                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/48e667cb20e518ba08f7c31dac9f2332270d0d50",
+                "reference": "48e667cb20e518ba08f7c31dac9f2332270d0d50",
                 "shasum": ""
             },
             "require": {
@@ -163,7 +163,7 @@
                 "statemachine",
                 "status"
             ],
-            "time": "2014-06-25 21:50:55"
+            "time": "2014-06-26 20:30:29"
         }
     ],
     "packages-dev": [
