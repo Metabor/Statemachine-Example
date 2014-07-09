@@ -4,7 +4,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Example\Order\Process\Postpayment;
 use Example\Order\Process\Prepayment;
 use Metabor\NamedCollection;
-use Metabor\Statemachine\Graph\Graph;
+use Metabor\Statemachine\Graph\GraphBuilder;
+use Fhaculty\Graph\Graph;
 use Fhaculty\Graph\GraphViz;
 try {
     $processes = new NamedCollection();
@@ -23,7 +24,8 @@ try {
     }
 
     $graph = new Graph();
-    $graph->addStateCollection($process);
+    $builder = new GraphBuilder($graph);
+    $builder->addStateCollection($process);
 
     $viz = new GraphViz($graph);
     $viz->setFormat('svg');
