@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "308f507ba43aeb4b85d9d1e78c2e15dc",
+    "hash": "4ec5da773fafcd0d6b5b99f4b698d826",
     "packages": [
         {
             "name": "clue/graph",
@@ -109,16 +109,16 @@
         },
         {
             "name": "metabor/statemachine",
-            "version": "v1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/Statemachine.git",
-                "reference": "f75f72bc5524c2977bbaf86b72d35cead2c354b2"
+                "reference": "ac03d264a6bbf37a4fb0fb6f5cb132499c307ea1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/f75f72bc5524c2977bbaf86b72d35cead2c354b2",
-                "reference": "f75f72bc5524c2977bbaf86b72d35cead2c354b2",
+                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/ac03d264a6bbf37a4fb0fb6f5cb132499c307ea1",
+                "reference": "ac03d264a6bbf37a4fb0fb6f5cb132499c307ea1",
                 "shasum": ""
             },
             "require": {
@@ -163,13 +163,15 @@
                 "statemachine",
                 "status"
             ],
-            "time": "2014-07-09 23:13:14"
+            "time": "2014-12-15 14:52:06"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "metabor/statemachine": 20
+    },
     "prefer-stable": true,
     "platform": {
         "php": ">=5.3"

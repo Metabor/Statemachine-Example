@@ -18,4 +18,13 @@ class Authorize extends Command
         }
         echo 'Command "Authorize" was executed. Result: ' . $context['authorize result'] . PHP_EOL;
     }
+
+    /**
+     * 
+     * @return string
+     */
+    public function __toString()
+    {
+        return 'Authorize';
+    }
 }

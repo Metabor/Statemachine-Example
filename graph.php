@@ -18,8 +18,9 @@ try {
             $process = $processes->get($processName);
         }
     }
-    if (!$process) {
-        $processName = reset($processes->getNames());
+    if (!isset($process)) {
+        $processNames = $processes->getNames();
+        $processName = reset($processNames);
         $process = $processes->get($processName);
     }
 
