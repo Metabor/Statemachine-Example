@@ -11,12 +11,12 @@
     ],
     "require": {
         "php": ">=5.3",
-    	"metabor/statemachine": "~1.1",
-    	"clue/graph": ">=0.7"
+        "metabor/statemachine": "~1.1",
+        "clue/graph": ">=0.7"
     },
     "autoload": {
         "psr-0": {
-			"Example\\": ""
+            "Example\\": ""
         }
     },
     "prefer-stable":true,

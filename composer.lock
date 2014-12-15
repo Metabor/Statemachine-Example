@@ -56,7 +56,7 @@
         },
         {
             "name": "metabor/metabor-std",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/MetaborStd.git",
@@ -109,16 +109,16 @@
         },
         {
             "name": "metabor/statemachine",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/Statemachine.git",
-                "reference": "b6e0d2d3def2039c2cf1ff5a111b5790a453263b"
+                "reference": "f75f72bc5524c2977bbaf86b72d35cead2c354b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/b6e0d2d3def2039c2cf1ff5a111b5790a453263b",
-                "reference": "b6e0d2d3def2039c2cf1ff5a111b5790a453263b",
+                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/f75f72bc5524c2977bbaf86b72d35cead2c354b2",
+                "reference": "f75f72bc5524c2977bbaf86b72d35cead2c354b2",
                 "shasum": ""
             },
             "require": {
@@ -163,23 +163,16 @@
                 "statemachine",
                 "status"
             ],
-            "time": "2014-07-09 22:32:21"
+            "time": "2014-07-09 23:13:14"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
+    "prefer-stable": true,
     "platform": {
         "php": ">=5.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
