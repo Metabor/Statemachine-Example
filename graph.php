@@ -1,12 +1,13 @@
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 use Example\Order\Process\Postpayment;
 use Example\Order\Process\Prepayment;
 use Metabor\NamedCollection;
 use Metabor\Statemachine\Graph\GraphBuilder;
 use Fhaculty\Graph\Graph;
-use Fhaculty\Graph\GraphViz;
+use Graphp\GraphViz\GraphViz;
+
 try {
     $processes = new NamedCollection();
     $processes->add(new Prepayment());
@@ -28,9 +29,9 @@ try {
     $builder = new GraphBuilder($graph);
     $builder->addStateCollection($process);
 
-    $viz = new GraphViz($graph);
+    $viz = new GraphViz();
     $viz->setFormat('svg');
-    echo file_get_contents($viz->createImageFile());
+    echo file_get_contents($viz->createImageFile($graph));
 } catch (Exception $e) {
     echo $e->getMessage();
 }

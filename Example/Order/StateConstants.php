@@ -14,5 +14,4 @@ interface StateConstants
 
     const STATE_PAID = 'paid';
     const STATE_DUNNING = 'dunning';
-
 }

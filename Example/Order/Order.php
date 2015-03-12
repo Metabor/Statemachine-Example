@@ -7,27 +7,21 @@ use MetaborStd\Statemachine\StatemachineInterface;
 use ArrayAccess;
 
 /**
- *
  * @author Oliver Tischlinger
- *
  */
 class Order
 {
-
     /**
-     *
      * @var string
      */
     private $number;
 
     /**
-     *
      * @var StatemachineInterface
      */
     private $statemachine;
 
     /**
-     *
      * @param string           $number
      * @param ProcessInterface $process
      */
@@ -38,19 +32,18 @@ class Order
     }
 
     /**
-     *
      * @param string      $name
      * @param ArrayAccess $context
      */
     public function triggerEvent($name, ArrayAccess $context = null)
     {
-        echo 'trigger event "' . $name . '" on ' . $this . PHP_EOL;
+        echo 'trigger event "'.$name.'" on '.$this.PHP_EOL;
         $this->statemachine->triggerEvent($name, $context);
     }
 
     /**
+     * @param string $name
      *
-     * @param  string  $name
      * @return boolean
      */
     public function hasEvent($name)
@@ -59,7 +52,6 @@ class Order
     }
 
     /**
-     *
      * @return \Traversable
      */
     public function getEventNames()
@@ -68,7 +60,6 @@ class Order
     }
 
     /**
-     *
      * @return string
      */
     public function getCurrentStateName()
@@ -77,21 +68,18 @@ class Order
     }
 
     /**
-     *
      * @return string
      */
     public function __toString()
     {
-        return 'Order ' . $this->number;
+        return 'Order '.$this->number;
     }
 
     /**
-     *
      * @return string
      */
     public function getNumber()
     {
         return $this->number;
     }
-
 }

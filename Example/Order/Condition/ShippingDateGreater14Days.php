@@ -7,15 +7,11 @@ use InvalidArgumentException;
 use ArrayAccess;
 
 /**
- *
  * @author Oliver Tischlinger
- *
  */
 class ShippingDateGreater14Days implements ConditionInterface
 {
-
     /**
-     *
      * @see MetaborStd\Statemachine.ConditionInterface::checkCondition()
      */
     public function checkCondition($subject, ArrayAccess $context)
@@ -28,12 +24,10 @@ class ShippingDateGreater14Days implements ConditionInterface
     }
 
     /**
-     *
      * @see MetaborStd.NamedInterface::getName()
      */
     public function getName()
     {
         return 'shipping-date >= 14 days';
     }
-
 }

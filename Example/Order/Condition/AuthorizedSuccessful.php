@@ -5,15 +5,11 @@ use MetaborStd\Statemachine\ConditionInterface;
 use ArrayAccess;
 
 /**
- *
  * @author Oliver Tischlinger
- *
  */
 class AuthorizedSuccessful implements ConditionInterface
 {
-
     /**
-     *
      * @see MetaborStd\Statemachine.ConditionInterface::checkCondition()
      */
     public function checkCondition($subject, ArrayAccess $context)
@@ -22,7 +18,6 @@ class AuthorizedSuccessful implements ConditionInterface
     }
 
     /**
-     *
      * @see MetaborStd.NamedInterface::getName()
      */
     public function getName()

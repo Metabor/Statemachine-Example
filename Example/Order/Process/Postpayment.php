@@ -14,9 +14,7 @@ use Metabor\Statemachine\State;
 
 class Postpayment extends Process implements ProcessConstants, StateConstants, EventConstants
 {
-
     /**
-     *
      * @param EventInterface $event
      * @param callable       $command
      */
@@ -40,7 +38,7 @@ class Postpayment extends Process implements ProcessConstants, StateConstants, E
         $event = $new->getEvent(self::EVENT_SHIPPING);
         $command = function (EventInterface $event) {
             list($order, $context) = $event->getInvokeArgs();
-            echo 'Command: ' . $order . ' is shipped!' . PHP_EOL;
+            echo 'Command: '.$order.' is shipped!'.PHP_EOL;
         };
         $this->addCommand($event, $command);
 
@@ -59,5 +57,4 @@ class Postpayment extends Process implements ProcessConstants, StateConstants, E
 
         parent::__construct(self::PROCESS_POSTPAYMENT, $new);
     }
-
 }

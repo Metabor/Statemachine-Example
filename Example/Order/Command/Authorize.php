@@ -16,11 +16,10 @@ class Authorize extends Command
         } else {
             $context['authorize result'] = 'failed';
         }
-        echo 'Command "Authorize" was executed. Result: ' . $context['authorize result'] . PHP_EOL;
+        echo 'Command "Authorize" was executed. Result: '.$context['authorize result'].PHP_EOL;
     }
 
     /**
-     * 
      * @return string
      */
     public function __toString()
