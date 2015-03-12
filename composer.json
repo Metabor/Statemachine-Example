@@ -11,9 +11,9 @@
     ],
     "require": {
         "php": ">=5.3",
-        "metabor/statemachine": "dev-master",
-        "clue/graph": ">=0.9",
-        "graphp/graphviz": ">=0.2"
+        "metabor/statemachine": "*",
+        "clue/graph": "*",
+        "graphp/graphviz": "*"
     },
     "autoload": {
         "psr-0": {

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46133d9320b0691c04b7d4afc5340bf8",
+    "hash": "acde41d0738c1c60f4cb888a44f428b2",
     "packages": [
         {
             "name": "clue/graph",
@@ -198,7 +198,7 @@
         },
         {
             "name": "metabor/statemachine",
-            "version": "dev-master",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/Statemachine.git",
@@ -259,9 +259,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "metabor/statemachine": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
