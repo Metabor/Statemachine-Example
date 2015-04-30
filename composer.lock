@@ -198,16 +198,16 @@
         },
         {
             "name": "metabor/statemachine",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Metabor/Statemachine.git",
-                "reference": "a578e8a36b82403ea1d982ef2429b3b379e60dbd"
+                "reference": "7e036591905fb5590b8c32bf4737d64c98cd01a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/a578e8a36b82403ea1d982ef2429b3b379e60dbd",
-                "reference": "a578e8a36b82403ea1d982ef2429b3b379e60dbd",
+                "url": "https://api.github.com/repos/Metabor/Statemachine/zipball/7e036591905fb5590b8c32bf4737d64c98cd01a3",
+                "reference": "7e036591905fb5590b8c32bf4737d64c98cd01a3",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,7 @@
                 "statemachine",
                 "status"
             ],
-            "time": "2015-03-12 19:14:16"
+            "time": "2015-04-09 08:25:18"
         }
     ],
     "packages-dev": [],
