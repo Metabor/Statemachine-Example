@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.3",
-        "metabor/statemachine": "*",
+        "metabor/statemachine": "~3.0.0@dev",
         "clue/graph": "*",
         "graphp/graphviz": "*"
     },
@@ -22,5 +22,15 @@
     },
     "notification-url": "https://packagist.org/downloads/",
     "prefer-stable":true,
-    "minimum-stability":"dev"
+    "minimum-stability":"dev",
+    "repositories": {
+        "statemachine": {
+            "type": "path",
+            "url": "../Statemachine"
+        },
+        "metabor-std": {
+            "type": "path",
+            "url": "../MetaborStd"
+        }
+    }
 }
