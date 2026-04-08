@@ -10,10 +10,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3",
-        "metabor/statemachine": "~3.0.0@dev",
+        "php": ">=8.2",
+        "metabor/statemachine": "~3.0.0",
         "clue/graph": "*",
         "graphp/graphviz": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
     },
     "autoload": {
         "psr-0": {
@@ -22,15 +25,5 @@
     },
     "notification-url": "https://packagist.org/downloads/",
     "prefer-stable":true,
-    "minimum-stability":"dev",
-    "repositories": {
-        "statemachine": {
-            "type": "path",
-            "url": "../Statemachine"
-        },
-        "metabor-std": {
-            "type": "path",
-            "url": "../MetaborStd"
-        }
-    }
+    "minimum-stability":"dev"
 }
