@@ -10,10 +10,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3",
-        "metabor/statemachine": "*",
+        "php": ">=8.2",
+        "metabor/statemachine": "~3.0.0",
         "clue/graph": "*",
         "graphp/graphviz": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
     },
     "autoload": {
         "psr-0": {
