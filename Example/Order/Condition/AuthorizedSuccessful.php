@@ -12,7 +12,7 @@ class AuthorizedSuccessful implements ConditionInterface
     /**
      * @see MetaborStd\Statemachine.ConditionInterface::checkCondition()
      */
-    public function checkCondition($subject, ArrayAccess $context)
+    public function checkCondition(object $subject, ArrayAccess $context): bool
     {
         return ($context['authorize result'] == 'successful');
     }
@@ -20,7 +20,7 @@ class AuthorizedSuccessful implements ConditionInterface
     /**
      * @see MetaborStd.NamedInterface::getName()
      */
-    public function getName()
+    public function getName(): string
     {
         return 'authorized successful';
     }

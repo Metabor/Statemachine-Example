@@ -14,7 +14,7 @@ class ShippingDateGreater14Days implements ConditionInterface
     /**
      * @see MetaborStd\Statemachine.ConditionInterface::checkCondition()
      */
-    public function checkCondition($subject, ArrayAccess $context)
+    public function checkCondition(object $subject, ArrayAccess $context): bool
     {
         if (!$subject instanceof Order) {
             throw new InvalidArgumentException('Subject has to be an Order!');
@@ -26,7 +26,7 @@ class ShippingDateGreater14Days implements ConditionInterface
     /**
      * @see MetaborStd.NamedInterface::getName()
      */
-    public function getName()
+    public function getName(): string
     {
         return 'shipping-date >= 14 days';
     }
