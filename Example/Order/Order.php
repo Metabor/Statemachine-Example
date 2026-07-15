@@ -35,7 +35,7 @@ class Order
      * @param string      $name
      * @param ArrayAccess $context
      */
-    public function triggerEvent($name, ArrayAccess $context = null)
+    public function triggerEvent($name, ?ArrayAccess $context = null)
     {
         echo 'trigger event "'.$name.'" on '.$this.PHP_EOL;
         $this->statemachine->triggerEvent($name, $context);

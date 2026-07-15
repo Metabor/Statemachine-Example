@@ -9,8 +9,11 @@ class Authorize extends Command
 {
     /**
      */
-    public function __invoke(Order $order, ArrayAccess $context)
+    public function __invoke(mixed ...$args): void
     {
+        /** @var Order $order */
+        /** @var ArrayAccess $context */
+        [$order, $context] = $args;
         if ($order->getNumber() != 'PREPAYMENT 2') {
             $context['authorize result'] = 'successful';
         } else {
@@ -22,7 +25,7 @@ class Authorize extends Command
     /**
      * @return string
      */
-    public function __toString()
+    public function __toString(): string
     {
         return 'Authorize';
     }
